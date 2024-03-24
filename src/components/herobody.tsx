@@ -1,7 +1,7 @@
 const Herobody = () => {
   return (
     <>
-      <div className="flex items-center h-[90vh] justify-between  px-14 pt-1 bg-orange-900">
+      <div className="flex items-center h-[90vh] justify-between  px-14 pt-1 bg-orange-100">
         <div className="w-[60vw]">
           <h1 className="text-6xl font-bold">
             ASK <span className="text-yellow-300">WHY&apos;S?</span> AND LET THE

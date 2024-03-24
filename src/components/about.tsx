@@ -5,7 +5,7 @@ import Card from "../assets/cardComponent";
 function About() {
   return (
     <>
-      <div className="h-full min-h-screen bg-orange-100">
+      <div className="h-full bg-orange-100">
         <div className="flex flex-col text-center w-full justify-center">
           <div className="self-center text-3xl sm:text-4xl md:text-5xl lgToLarge:text-[52px] xl:text-[56px] 2xl:[60px] font-bold text-black pt-[5vh] lgToLarge:leading-tight">
             <span className="text-yellow-500">WHY CHOOSE THINKING</span> <br />

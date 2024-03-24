@@ -19,8 +19,8 @@ export default {
       md: { min: "781px", max: "1023px" },
       // => @media (min-width: 781px and max-width: 1023px) { ... } //between 781px to 1023px
 
-      mdToLarge: { min: "768px" },
-      // => @media (min-width: 768px) { ... } //from 768px to above
+      mdToLarge: { min: "781px" },
+      // => @media (min-width: 781px) { ... } //from 781px to above
 
       lg: { min: "1024px", max: "1279px" },
       // => @media (min-width: 1024px and max-width: 1279px) { ... } //between 1024px to 1279px
