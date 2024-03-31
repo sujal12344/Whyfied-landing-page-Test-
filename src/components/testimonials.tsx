@@ -1,6 +1,5 @@
 import Card from "../assets/cardComponent";
 import qestionMark from "../images/qestionMark3d.svg";
-import ellipse from "../images/EllipseLast.png";
 import book from "../images/book.svg";
 import IssacNewton from "../images/IsaacNetwon.png";
 import SteveJobs from "../images/SteveJobs.png";
