@@ -1,5 +1,8 @@
 import QuestionMark from "../images/Question MarkinSentence.png";
 import navbar from "../images/navbarImage.png";
+import Marcus from "../images/Marcus Aurelius.png";
+import secondScientist from "../images/secondScienticist.png";
+import greenQuestionMark from "../images/green question mark.png";
 // import circle from "../images/circle.svg";
 
 const Herobody = () => {
@@ -34,7 +37,23 @@ const Herobody = () => {
             </p>
           </h1>
         </div>
-        <div className="w-[40vw]">LOGO</div>
+        <div className="w-[40vw]">
+          <img
+            src={secondScientist}
+            alt="scientist"
+            className="w-[220px] h-[200px] relative top-[52px] left-[185px]"
+          />
+          <img
+            src={Marcus}
+            alt="scientist"
+            className="w-[215px] h-[220px] relative top-[-75px] left-[40px]"
+          />
+          <img
+            src={greenQuestionMark}
+            alt="scientist"
+            className="w-[240px] h-[165px] relative top-[-80px] left-[275px] rotate-12"
+          />
+        </div>
       </div>
     </>
   );
