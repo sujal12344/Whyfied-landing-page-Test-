@@ -13,7 +13,7 @@ const Herobody = () => {
           <img
             src={navbar}
             alt="image"
-            className="h-[95px] w-[80px] relative 2xl:top-[-10px] 2xl:left-[-58px] 2xl:scale-125 z-0"
+            className="h-[95px] w-[80px] relative 2xl:top-[-30px] 2xl:left-[-58px] 2xl:scale-125 z-0"
           />
           <h1 className="mb:text-[48px] sm:text-[48px] text-6xl font-bold leading-snug mdToLarge:leading-normal">
             ASK{" "}
