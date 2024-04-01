@@ -3,9 +3,10 @@ import classNames from "classnames";
 type ButtonType = {
   buttonText: string;
   rounded?: "none" | "md" | "full";
-  size?: "sm" | "md" | "lg";
+  size?: "mb" | "sm" | "md" | "lg";
   color?: "violet" | "pink" | "red" | "orange" | "yellow" | "lime" | "cyan";
   disabled?: boolean;
+  link?: string;
   className?: string;
 };
 
@@ -15,6 +16,7 @@ const NeoButton = ({
   size = "md",
   color = "cyan",
   disabled,
+  link,
   className,
 }: ButtonType) => {
   return (
@@ -53,6 +55,7 @@ const NeoButton = ({
         { "rounded-none": rounded === "none" },
         { "rounded-md": rounded === "md" },
         { "rounded-full": rounded === "full" },
+        { "h-10 px-3 hover:shadow-[2px_2px_0px_rgba(0,0,0,1)]": size === "mb" },
         { "h-10 px-4 hover:shadow-[2px_2px_0px_rgba(0,0,0,1)]": size === "sm" },
         { "h-12 px-5 hover:shadow-[2px_2px_0px_rgba(0,0,0,1)]": size === "md" },
         { "h-14 px-5 hover:shadow-[4px_4px_0px_rgba(0,0,0,1)]": size === "lg" },
@@ -64,7 +67,7 @@ const NeoButton = ({
       )}
       disabled={disabled}
     >
-      {buttonText}
+      <a href={link}>{buttonText}</a>
     </button>
   );
 };
