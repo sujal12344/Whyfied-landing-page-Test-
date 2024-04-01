@@ -19,15 +19,15 @@ const MenuButton = ({
 const Navbar = () => {
   const menuItems = ["Pricing", "Samples", "FAQ"];
   const menuItemsLink = [
-    "https://www.google.co.in/",  //pricing link
-    "https://www.amazon.in/",     //Samples link
-    "https://www.facebook.com/",  //FAQ link
+    "https://www.google.co.in/", //pricing link
+    "https://www.amazon.in/",    //Samples link
+    "https://www.facebook.com/", //FAQ link
   ];
 
   return (
-    <header className="flex justify-between items-center px-[80px] mb:px-[10px] py-[12px] w-full text-lg mb:text-[16px] font-semibold mb:font-bold text-black whitespace-nowrap bg-orange-200 smToLarge:flex-wrap smToLarge:px-[20px]">
+    <header className="flex justify-between items-center py-[12px] w-full text-lg mb:text-[16px] font-semibold mb:font-bold text-black whitespace-nowrap bg-orange-200 mb:px-[10px] sm:px-[16px] md:px-[20px] lg:px-[24px] xl:px-[28px] px-[32px]">
       <div className="flex items-center">LOGO</div>
-      <nav className="flex space-x-[30px] mb:space-x-[10px] grow-0 mb:shrink-0 justify-between smToLarge:flex-wrap smToLarge:max-w-full">
+      <nav className="flex space-x-[30px] mb:space-x-[10px] grow-0 mb:shrink-0 justify-between">
         <div className="flex space-x-[16px] mb:space-x-[14px]">
           {menuItems.map((item, index) => (
             <MenuButton key={item} link={menuItemsLink[index]}>

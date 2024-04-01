@@ -1,5 +1,5 @@
-import QuestionMark from "../images/Question MarkinSentence.png";
-import navbar from "../images/navbarImage.png";
+import orangeQuestionMark from "../images/orangeQuestionMark.png";
+import halfCircleAtNavbar from "../images/halfCircleAtNavbar.png";
 import Marcus from "../images/Marcus Aurelius.png";
 import secondScientist from "../images/secondScienticist.png";
 import greenQuestionMark from "../images/green question mark.png";
@@ -8,21 +8,22 @@ import greenQuestionMark from "../images/green question mark.png";
 const Herobody = () => {
   return (
     <>
-      <div className="flex items-center h-[90vh] justify-between  px-14 pt-1 bg-orange-100">
-        <div className="w-[60vw]">
+      {/*items-center justify-between pt-1*/}
+      <div className="flex mb:flex-col sm:flex-col bg-orange-100">
+        <div className="mb:w-full sm:w-full w-[60vw]">
           <img
-            src={navbar}
-            alt="image"
-            className="h-[95px] w-[80px] 2xl:scale-125 z-0"
+            src={halfCircleAtNavbar}
+            alt="halfCircleAtNavbar"
+            className="h-[110px] w-[98px] mb:h-[100] mb:w-[92px]"
           />
-          <h1 className="mb:text-[48px] sm:text-[48px] text-6xl font-bold leading-snug mdToLarge:leading-normal">
+          <h1 className="mb:text-[40px] sm:text-[42px] md:text-[44px] lg:text-[48px] xl:text-[52px] 2xl:text-[56px] font-bold leading-snug md:leading-normal lgToLarge:leading-[1.6] mb:px-[20px] sm:px-[26px] md:px-[30px] lg:px-[34px] xl:px-[38px] 2xl:px-[42px] mb:w-[90vw] sm:w-[65vw] mb:pt-[60px] sm:pt-[60px]">
             ASK{" "}
             <span className="text-yellow-300">
               WHY&apos;S
               <span>
                 <img
-                  src={QuestionMark}
-                  alt="QuestionMark"
+                  src={orangeQuestionMark}
+                  alt="orangeQuestionMark"
                   className="w-[125px] h-[158px] relative top-[-120px] left-[340px]"
                 />
               </span>
@@ -37,7 +38,7 @@ const Herobody = () => {
             </p>
           </h1>
         </div>
-        <div className="w-[40vw]">
+        <div className="mb:w-full sm:w-full w-[40vw]">
           <img
             src={secondScientist}
             alt="scientist"

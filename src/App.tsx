@@ -1,7 +1,7 @@
 import Navbar from "./components/navbar";
 import Herobody from "./components/herobody";
 import About from "./components/about";
-import Testimonials from "./components/testimonials";
+// import Testimonials from "./components/testimonials";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <Herobody />
       <About />
-      <Testimonials />
+      {/* <Testimonials /> */}
     </>
   );
 }
