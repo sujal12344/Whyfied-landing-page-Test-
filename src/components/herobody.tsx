@@ -1,7 +1,7 @@
 import orangeQuestionMark from "../images/orangeQuestionMark.png";
 import halfCircleAtNavbar from "../images/halfCircleAtNavbar.png";
 import Marcus from "../images/Marcus Aurelius.png";
-import secondScientist from "../images/secondScienticist.png";
+import secondModal from "../images/secondModal.png";
 import greenQuestionMark from "../images/green question mark.png";
 import circle from "../images/circle.svg";
 
@@ -42,21 +42,24 @@ const Herobody = () => {
             </p>
           </h1>
         </div>
-        <div className="mb:w-full sm:w-full w-[40vw]">
-          <img
-            src={secondScientist}
-            alt="scientist"
-            className="w-[220px] h-[200px] relative top-[52px] left-[185px]"
-          />
-          <img
-            src={Marcus}
-            alt="scientist"
-            className="w-[215px] h-[220px] relative top-[-75px] left-[40px]"
-          />
+
+        <div className="flex flex-col items-center justify-center mb:w-full sm:w-full w-[40vw] mb:pt-[50px] sm:pt-[80px] md:pt-[40px] lg:pt-[50px]">
+          <div className="flex justify-center items-center px-[50px]">
+            <img
+              src={Marcus}
+              alt="Marcus"
+              className="w-[215px] h-[220px] mb:-mr-[60px] sm:-mr-[20px] md:-mr-[80px] lg:-mr-[70px] xl:-mr-[50px] 2xl:-mr-[30px] mt-[120px]"
+            />
+            <img
+              src={secondModal}
+              alt="secondModal"
+              className="w-[220px] h-[200px] mb:-mr-[15px] sm:-ml-[40px]"
+            />
+          </div>
           <img
             src={greenQuestionMark}
-            alt="scientist"
-            className="w-[240px] h-[165px] relative top-[-80px] left-[275px] rotate-12"
+            alt="greenQuestionMark"
+            className="w-[170px] h-[150px] md:scale-[0.8] lg:scale-[0.85] xl:scale-[0.9] mb:mt-[20px] sm:mt-[30px] mdToLarge:mt-[0px] mb:ml-[60px] ml-[60px] lg:ml-[70px] xl:ml-[80px] 2xl:ml-[100px] mb-[120px]"
           />
         </div>
       </div>
