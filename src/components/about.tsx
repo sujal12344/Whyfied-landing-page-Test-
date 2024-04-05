@@ -43,7 +43,7 @@ function About() {
             <img
               src={mobile_image}
               alt="mobile image"
-              className="h-[220px] w-[225px] absolute rotate-[-23.11deg] -ml-[110px] mt-[210px]"
+              className="h-[220px] w-[225px] absolute rotate-[-23.11deg] -ml-[110px] mt-[210px] z-10"
             />
             <Card
               text1={"Social media is overwhelming?"}
@@ -57,7 +57,7 @@ function About() {
             <img
               src={man_image}
               alt="man image"
-              className="h-[180px] w-[230px] absolute -mt-[110px]"
+              className="h-[180px] w-[230px] absolute -mt-[110px] z-10"
             />
 
             <div className="flex items-center justify-center">
@@ -75,7 +75,7 @@ function About() {
             <img
               src={fallMan}
               alt="fallMan"
-              className="h-[300px] w-[300px] absolute ml-[110px] mt-[150px]"
+              className="h-[300px] w-[300px] absolute ml-[110px] mt-[150px] z-10"
             />
             <Card
               text1={"Feeling a virtual void? "}

@@ -18,7 +18,7 @@ export default function Card({
       {/*Mega.className*/}
       <div
         className={tM(
-          "w-[300px] h-[300px] font-medium hover:font-bold text-2xl border-4 border-black bg-[#5fc2bb]  grid place-content-center shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:shadow-[12px_12px_0px_rgba(0,0,0,1)] transition-shadow cursor-pointer ",
+          "w-[300px] h-[300px] font-medium hover:font-bold text-2xl border-4 border-black  grid place-content-center shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:shadow-[12px_12px_0px_rgba(0,0,0,1)] transition ease-linear delay-150 bg-[#5fc2bb] hover:scale-110 duration-300 cursor-pointer ",
           className
         )}
       >
