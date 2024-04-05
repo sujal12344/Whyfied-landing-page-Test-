@@ -6,7 +6,7 @@ import SteveJobs from "../images/SteveJobs.png";
 import last from "../images/last.png";
 import whiteYellowQuestionMark from "../images/whiteYellowQuestionMark.png";
 import circle from "../images/circle.svg";
-import ellipse from "../images/EllipseLast.png";
+// import ellipse from "../images/EllipseLast.png";
 
 const Testimonials = () => {
   return (
