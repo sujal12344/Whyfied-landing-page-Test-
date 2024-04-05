@@ -9,7 +9,7 @@ const Herobody = () => {
   return (
     <>
       {/*items-center justify-between pt-1*/}
-      <div className="flex mb:flex-col sm:flex-col bg-orange-100">
+      <div className="flex mb:flex-col sm:flex-col bg-orange-100 pb-[80px] mb:pb-[50px]">
         <div className="mb:w-full sm:w-full w-[60vw]">
           <img
             src={halfCircleAtNavbar}
