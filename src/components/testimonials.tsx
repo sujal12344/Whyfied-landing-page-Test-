@@ -96,7 +96,7 @@ const Testimonials = () => {
             <img
               src={last}
               alt="last"
-              className="h-[170px] w-[160px] absolute mb:scale-75 sm:scale-75 mdToLarge:left-[54vw] mdToLarge:top-[60px] mb:top-[20px] sm:top-[20px] mb:left-[380px] sm:left-[460px]"
+              className="h-[170px] w-[160px] absolute mb:scale-75 sm:scale-75 mdToLarge:left-[54vw] mdToLarge:top-[60px] mb:top-[20px] sm:top-[20px] mb:left-[380px] sm:left-[460px] mb:overflow-hidden sm:overflow-hidden md:overflow-none"
             />
           </div>
         </div>
